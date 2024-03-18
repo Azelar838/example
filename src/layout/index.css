@@ -36,12 +36,7 @@
     height: 100vh;
     max-height: auto;
   }
-  
-  .main-layout .sidebar > img {
-    width: 44px;
-    margin-top: 5px;
-  }
-  
+
   .main-layout .sidebar > .sidebar-element {
     display: flex;
     margin-top: 16px;

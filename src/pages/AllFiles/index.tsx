@@ -1,25 +1,22 @@
-import StarIcon from '../../assets/icons/Star.svg';
+import FileStructureIcon from '../../assets/icons/FileStructure.svg';
 import Files from '../../components/Files/File';
-import '../../pages/Starred'
 import FILES from '../../constants/files';
 import './index.css'
 
-const Starred = () => {
-  const data = FILES.slice(0,5)
-
+const AllFiles = () => {
+  const data=FILES.slice(0,10)
   return (
-    <div className="starred">
+    <div className="all-files">
       <nav>
         <div className="logo-container">
           <div className="logo">
-            <img src={StarIcon} alt="" />
+            <img src={FileStructureIcon} alt="" />
           </div>
-          <h2> Starred Files</h2>
+          <h2> All Files</h2>
         </div>
       </nav>
       <Files data={data} />
     </div>
   );
 };
-
-export default Starred;
+export default AllFiles;

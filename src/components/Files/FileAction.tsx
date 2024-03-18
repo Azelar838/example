@@ -7,11 +7,7 @@ import BoxIcon from '../../assets/icons/Box.svg';
 const FileAction = ({ id, isStarred, isArchived }:{id:string,isStarred:boolean,isArchived:boolean}) => {
   const location = useLocation();
   let currentLocation = location.pathname;
-  const deleteHandler = () => {
-    let type;
-    if (currentLocation === '/archived') type = 'archived';
-    if (currentLocation === '/starred') type = 'starred';
-  };
+
   return (
     <Fragment>
       {currentLocation === '/all-files' && (

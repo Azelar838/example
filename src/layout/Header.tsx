@@ -1,7 +1,7 @@
 import searchLogo from '../assets/icons/Search.svg';
 import settingsLogo from '../assets/icons/Settings.svg';
 import notificationBellLogo from '../assets/icons/NotificationBell.svg';
-import userImg from '../assets/images/user-img.jpg'
+import userImg from '../assets/images/profile-img.png'
 
 const Header = () => {
 

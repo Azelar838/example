@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router';
 import './index.css'
+
 const TableHead = () => {
   const location = useLocation();
   const currentLocation = location.pathname;
