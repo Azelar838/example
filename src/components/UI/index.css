@@ -1,0 +1,60 @@
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 20px;
+}
+
+.sortContainer {
+  display: flex;
+  align-items: center;
+}
+.sortContainer select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  appearance: none;
+  width: 202px;
+  height: 51px;
+  padding: 13px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #eff0f6;
+  color: #6e7191;
+  outline: none;
+  border: 1px solid #eff0f6;
+  border-radius: 12px;
+}
+.sortContainer select::-ms-expand {
+  display: none;
+}
+.sortContainer select option {
+  background-color: #eff0f6;
+}
+
+.dropDownIcon {
+  position: absolute;
+  margin-left: 170px;
+  width: 30px; /* added 'px' unit */
+  filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(0);
+}
+
+.table-head {
+  width: 100%;
+  color:#6e7191;
+  font-size: 12px;
+  font-weight: 600;
+  display: grid;
+  justify-content: space-between;
+  gap: 95px;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
+.table-head > .actions {
+  margin-left: 70px;
+}
+.table-head > .size-home {
+  margin-left: 20px;
+}
+.table-head > .name {
+  margin-left: -5px;
+}

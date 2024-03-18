@@ -1,0 +1,32 @@
+.starred {
+    width: 900px;
+    margin-top: -10px;
+  }
+  .starred nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+  .starred nav > .logo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+  }
+  .starred nav > .logo-container > h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+  .starred nav > .logo-container > .logo {
+    background-color:  #eaac30;
+    border-radius: 12px;
+    height: 50px;
+    width: 50px;
+  }
+  .starred nav > .logo-container > .logo > img {
+    width: 30px;
+    padding: 10px;
+    filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(50);
+  }
+  

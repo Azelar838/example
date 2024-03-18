@@ -1,0 +1,143 @@
+.card-file {
+    font-size: 15px;
+    margin-left: -40px;
+    display: grid;
+    list-style: none;
+  }
+  
+  .card-file > .fileName {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-file > .fileName > .file-icon {
+    display: flex;
+    width: 35px;
+  }
+  
+  .card-file > .fileName > .file-icon > div {
+    display: flex;
+  }
+  
+  .card-file > .fileName > .file-icon > div > .point {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: relative;
+    right: 5px;
+    top: 16px;
+  }
+  
+  .card-file > .fileName > .file-icon > div > .file-archived {
+    background-color: var(--quinary);
+  }
+  
+  .card-file > .fileName > .file-icon > div > .file-starred {
+    background-color: var(--quaternary);
+  }
+  
+  .card-file li {
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+    margin-top: -4px;
+  }
+  
+  .card-file-home {
+    grid-template-columns: repeat(3, 1fr);
+    width: 589px;
+  }
+  
+  .card-file-home > .fileDate {
+    padding-left: 18px;
+  }
+  
+  .card-file-home > .fileSize {
+    padding-left: 20px;
+  }
+  
+  .card-file-action {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .card-file-action > .fileDate {
+    padding-left: 66px;
+  }
+  
+  .card-file-action > .fileSize {
+    padding-left: 92px;
+  }
+  
+  .card-file-action > .fileAction {
+    padding-left: 170px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .card-file-action > .fileAction > .fileActionIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .card-file-action > .fileAction > .fileActionIcon > img {
+    width: 18px;
+    filter: invert(100%) sepia(100%) saturate(100%) brightness(100%) contrast(100);
+  }
+  
+  .card-file-action > .fileAction > .active-action {
+    background-color: var(--action-btn-color);
+    cursor: not-allowed;
+  }
+  
+  .card-file-action > .fileAction > .star {
+    background-color: var(--quaternary);
+  }
+  
+  .card-file-action > .fileAction > .box {
+    background-color: var(--quinary);
+  }
+  
+  .card-file-action > .fileAction > .trash {
+    background-color: var(--quinary);
+    margin-left: 31px;
+  }
+  
+  .upload-file [type='file'] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .upload-file > .btn-2 {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 15px;
+    width: 75px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 520;
+    outline: none;
+    padding: 1.1rem 50px;
+    position: relative;
+  }
+  
+  .not-found-file {
+    background-color: var(--not-found-background);
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: 550;
+  }
+  

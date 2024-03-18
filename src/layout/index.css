@@ -1,0 +1,158 @@
+:root {
+  --text-black: #000000;
+  --text-muted: #6e7191;
+  --btn-color: #fff;
+  --action-btn-color: #d9dbe9;
+  --app-background: #fcfcfc;
+  --card-background: #f7f7fc;
+  --primary: #610bef;
+  --secondary: #005bd4;
+  --tertiary: #008a00;
+  --quaternary: #eaac30;
+  --quinary: #ca024f;
+  --progress-background: #d9dbe9;
+  --search-background: #f7f7fd;
+  --sort-background: #eff0f6;
+  --not-found-background: #eff1f7;
+  --icon-color: #ffffff;
+  --border: #d9dbe9;
+}
+
+.main-layout {
+    background-color: var(--app-background);
+    display: flex;
+    padding: 30px;
+    max-width: 1227px;
+    gap: 75px;
+    margin: auto;
+  }
+  
+  .main-layout .sidebar {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 280px;
+    height: 100vh;
+    max-height: auto;
+  }
+  
+  .main-layout .sidebar > img {
+    width: 44px;
+    margin-top: 5px;
+  }
+  
+  .main-layout .sidebar > .sidebar-element {
+    display: flex;
+    margin-top: 16px;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  
+  .main-layout .sidebar > .sidebar-element .active {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(62deg)
+      brightness(0%) contrast(100%);
+  }
+  
+  .main-layout .sidebar > .sidebar-element > .flex {
+    display: flex;
+    padding-left: 1px;
+    text-decoration: none;
+    color: var(--text-muted);
+  }
+  
+  .main-layout .sidebar > .sidebar-element > .flex > img {
+    padding-right: 10px;
+  }
+  
+  .main-layout > .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-layout > .container .header {
+    display: flex;
+    max-width: 1090px;
+    gap: 100px;
+    height: 60px;
+  }
+  
+  .main-layout > .container .header > .inputContainer {
+    max-width: 630px;
+  }
+  
+  .main-layout > .container .header > .inputContainer > img {
+    position: absolute;
+  }
+  
+  .main-layout > .container .header > .inputContainer > img.icon {
+    width: 24px;
+    padding-top: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+  }
+  
+  .main-layout > .container .header > .inputContainer > input {
+    height: 50px;
+    width: 510px;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 540;
+    border-radius: 12px;
+    background-color: var(--search-background);
+    outline: none;
+    border: 2px solid var(--search-background);
+  }
+  
+  .main-layout > .container .header .userContainer {
+    font-size: 20px;
+    font-weight: 510;
+    height: 52px;
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+    color: var(--text-muted);
+  }
+  
+  .main-layout > .container .header .userContainer > .notificationContainer {
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 87px;
+  }
+  
+  .main-layout > .container .header .userContainer > .setttingContainer {
+    width: 62px;
+    padding-top: 12px;
+    border: 2px solid var(--border);
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .main-layout > .container .header .userContainer > .userName {
+    width: 68px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .main-layout > .container .header .userContainer > .userImg {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 4px;
+  }
+  
+  .main-layout > .container .header .userContainer > .userImg > img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
