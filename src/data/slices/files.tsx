@@ -1,7 +1,7 @@
 import FILES from "../../constants/files"
 import {createSlice,PayloadAction} from '@reduxjs/toolkit'
 import { CardFileProps } from "../../components/Files/CardFile"
-
+import {toast} from 'react-toastify'
 
 const initialState={
     filesData:FILES
@@ -16,7 +16,7 @@ const slice = createSlice({
             state.filesData?.map((file:CardFileProps)=>{
                 if (fileId === file?.id){
                     file.isStarred=!file.isStarred
-                    toast.success(`File ${file.isStarred ? 'favorite' :'unfavorite'} successfully `)
+                    toast.success(`File ${file.isStarred ? 'favorite' :'unfavorite'} with success `)
                 }
             })
         },
