@@ -1,7 +1,7 @@
 import FILES from "../../constants/files"
 import {createSlice,PayloadAction} from '@reduxjs/toolkit'
 import { CardFileProps } from "../../components/Files/CardFile"
-import {toast} from 'react-toastify'
+
 
 const initialState={
     filesData:FILES
