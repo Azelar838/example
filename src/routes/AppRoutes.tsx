@@ -1,4 +1,4 @@
-import { BrowserRouter as Router , Routes,Route } from "react-router-dom"
+import { BrowserRouter as Router , Routes,Route } from 
 import MainLayout from "../layout"
 import AllFiles from "../pages/AllFiles"
 import Archived from "../pages/Archived"
@@ -16,6 +16,6 @@ export default function AppRoutes(){
                 <Route path="/all-files" element={<AllFiles/>}/>
             </Routes>
         </MainLayout>
-        </Router>
+        </Route>
     )
 }
