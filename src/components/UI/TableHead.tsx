@@ -8,7 +8,9 @@ const TableHead = () => {
   if (currentLocation === '/starred') tableDate = 'Date Starred';
   if (currentLocation === '/archived') tableDate = 'Date Archived';
   return (
-<h1>Hello World</h1>
+<h1>Goodbye University life</h1>
+<h2>it has been a fun ride</h2>
+            <h3>Thanks to everyone i kn</h3>
   );
 };
 

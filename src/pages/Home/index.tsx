@@ -14,7 +14,7 @@ const Home = () => {
           <h1>Recent Files</h1>
           <Files data={data} />
         </div>
-        <SidebarCard />
+        <Sidebar />
       </div>
     </div>
   );

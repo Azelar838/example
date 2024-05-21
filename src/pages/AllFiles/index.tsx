@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import FileStructureIcon from '../../assets/icons/FileStructure.svg';
 import { CardFileProps } from '../../components/Files/CardFile';
