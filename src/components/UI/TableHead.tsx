@@ -10,7 +10,7 @@ const TableHead = () => {
   return (
 <h1>Goodbye University life</h1>
 <h2>it has been a fun ride</h2>
-            <h3>Thanks to everyone</h3>
+            <h3>Thanks to everyone i know</h3>
   );
 };
 
