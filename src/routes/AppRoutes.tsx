@@ -16,6 +16,6 @@ export default function AppRoutes(){
                 <Route path="/all-files" element={<AllFiles/>}/>
             </Routes>
         </MainLayout>
-        </Router>
+        </Route>
     )
 }
