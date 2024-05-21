@@ -9,7 +9,7 @@ const TableHead = () => {
   if (currentLocation === '/archived') tableDate = 'Date Archived';
   return (
 <h1>Goodbye World</h1>
-<h2>it has been a crazy ride</h2>
+<h2>it has been a crazy rid</h2>
   );
 };
 
