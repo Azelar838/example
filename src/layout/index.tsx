@@ -9,10 +9,10 @@ const MainLayout = ({children}:{children:React.ReactNode}) => {
       <Sidebar />
       <div className="container">
         <Header />
-        {children}
+        {children
       </div>
     </div>
   );
 };
 
-export default MainLayout;
+default MainLayout;
